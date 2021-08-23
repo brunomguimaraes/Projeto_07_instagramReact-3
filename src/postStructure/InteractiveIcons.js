@@ -1,16 +1,14 @@
 export default function InteractiveIcons() {
+    const icons = ["heart-outline", "chatbubble-outline", "paper-plane-outline"];
+    const leftButtons = icons.map(name => 
+        <button>
+            <ion-icon name={name} />
+        </button>
+    );
     return (
         <li class="interactive-icons">
             <div>
-                <button>
-                    <ion-icon name="heart-outline" />
-                </button>
-                <button>
-                    <ion-icon name="chatbubble-outline" />
-                </button>
-                <button>
-                    <ion-icon name="paper-plane-outline" />
-                </button>
+                {leftButtons}
             </div>
             <button>
                 <ion-icon name="bookmark-outline" />

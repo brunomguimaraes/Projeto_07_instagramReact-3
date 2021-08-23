@@ -1,6 +1,6 @@
 export default function SetTextToJSX(props) {
     const characters = Array.from(props.text);
-    const brokenText = []
+    const brokenText = [];
     let nextChar;
     let activeText = ""
     let hashtagMentionIndicator = false;
@@ -14,7 +14,7 @@ export default function SetTextToJSX(props) {
         } else {
             nextChar = false
         }
-        if (!nextChar || ["#","@"].includes(nextChar) || nextChar === " " && (hashtagMentionIndicator === true)) {
+        if (!nextChar || ["#","@"].includes(nextChar) || (nextChar === " " && hashtagMentionIndicator === true)) {
             brokenText.push(activeText);
             hashtagMentionIndicator = false;
             activeText = "";
@@ -26,6 +26,6 @@ export default function SetTextToJSX(props) {
         } else {
             return <span>{fragment}</span>
         }
-    })
-    return textInJSX
+    });
+    return textInJSX;
 }

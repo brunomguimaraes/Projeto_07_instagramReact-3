@@ -25,7 +25,4 @@ function postStructure(props) {
     )
 }
 
-
-const posts = serverPosts.map(post => postStructure(post))
-
-export default posts
+export default serverPosts.map(post => postStructure(post));

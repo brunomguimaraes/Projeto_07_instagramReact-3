@@ -1,13 +1,13 @@
 const serverStories = [
-    {name:"berlim", image: "Berlin.jpg", reference: "#"},
-    {name:"rio.de.janeiro", image: "Rio de Janeiro.jpeg", reference: "#"},
-    {name:"nova.york", image: "NYC.jpg", reference: "#"},
-    {name:"roma", image: "Roma.jpg", reference: "#"},
-    {name:"sidney", image: "Sidney.jpg", reference: "#"},
-    {name:"cairo", image: "Cairo.jpg", reference: "#"},
-    {name:"barcelona", image: "Barcelona.jpg", reference: "#"},
-    {name:"amsterdam", image: "Amsterdam.jpg", reference: "#"},
-]
+    {name:"berlim", image: "Berlin.jpg", alt: "Berlim Profile Pic", reference: "#"},
+    {name:"rio.de.janeiro", image: "Rio de Janeiro.jpeg", alt: "Rio Profile Pic", reference: "#"},
+    {name:"nova.york", image: "NYC.jpg", alt: "New York Profile Pic", reference: "#"},
+    {name:"roma", image: "Roma.jpg", alt: "Roma Profile Pic", reference: "#"},
+    {name:"sidney", image: "Sidney.jpg", alt: "Sidney Profile Pic", reference: "#"},
+    {name:"cairo", image: "Cairo.jpg", alt: "Cairo Profile Pic", reference: "#"},
+    {name:"barcelona", image: "Barcelona.jpg", alt: "Barcelona Profile Pic", reference: "#"},
+    {name:"amsterdam", image: "Amsterdam.jpg", alt: "Amsterdam Profile Pic", reference: "#"},
+];
 
 
-export default serverStories
+export default serverStories;

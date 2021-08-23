@@ -1,8 +1,6 @@
 import stories from "./Stories.js";
 import posts from "./Posts.js";
-import UserProfile from "./UserProfile.js";
-import InstagramSuggestions from "./InstagramSuggestions.js";
-import Copyrights from "./Copyrights.js";
+import Sidebar from "./Sidebar.js";
 
 export default function Container() {
     return (
@@ -18,11 +16,7 @@ export default function Container() {
                     {posts}
                 </main>
             </div>
-            <section class="sidebar">
-                <UserProfile />
-                <InstagramSuggestions />
-                <Copyrights />
-            </section>
+            <Sidebar />
         </div>
     );
 }

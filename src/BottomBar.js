@@ -1,11 +1,14 @@
 export default function BottomBar() {
+    const icons = [
+        "home",
+        "search-outline",
+        "add-circle-outline",
+        "heart-outline",
+        "person-outline"
+    ];
     return (
         <footer>
-            <ion-icon name="home" />
-            <ion-icon name="search-outline" />
-            <ion-icon name="add-circle-outline" />
-            <ion-icon name="heart-outline" />
-            <ion-icon name="person-outline" />
+            {icons.map(name => <ion-icon name={name} />)}
         </footer>
     );
 }

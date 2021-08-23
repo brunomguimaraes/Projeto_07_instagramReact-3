@@ -186,7 +186,7 @@ main strong {
 
 .post-media {
     width: 100%;
-    padding-bottom: 100%; /*Transforma a div em quadrada*/
+    padding-bottom: 100%; 
     position: relative;
     box-sizing: content-box;
 }
