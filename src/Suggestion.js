@@ -1,8 +1,8 @@
 export default function Suggestion() {
-    ProfileAnchorReference = "#";
-    ProfileImageSrc = "Images/Perfis/Buenos Aires.jpg";
-    ProfileName = "buenos.aires";
-    ProfileComment = "Segue você"
+    const ProfileAnchorReference = "#";
+    const ProfileImageSrc = "./Media/Images/Perfis/Buenos Aires.jpg";
+    const ProfileName = "buenos.aires";
+    const ProfileComment = "Segue você"
     return (
         <li>
             <div>

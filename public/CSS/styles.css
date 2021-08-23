@@ -203,6 +203,15 @@ main strong {
 
 .post-footer {
     width: 100%;
+    padding: 8px 18px 0px;
+}
+
+.post-footer.comments-section {
+    padding: 0px 18px;
+}
+
+.time-since-sent {
+    width: 100%;
     padding: 8px 18px;
     border-bottom: solid 1px #DBDBDB;
 }
@@ -238,37 +247,37 @@ main strong {
     border-radius: 50%;
 }
 
-.comments-section {
+.new-comment-section {
     display: flex;
     justify-content: flex-start;
     height: 40px;
     width: 100%;
 }
 
-.comments-section ion-icon {
+.new-comment-section ion-icon {
     font-size: 24px;
     color:#262626;
     margin-right:16px;
     margin-left: 8px;
 }
 
-.comments-section input {
+.new-comment-section input {
     width: 100%;
     border: none;
 }
 
-.comments-section button:last-of-type {
+.new-comment-section button:last-of-type {
     color:#B2DFFC;
     margin-right: 8px;
 }
 
-.comments-section button:first-of-type:hover {
+.new-comment-section button:first-of-type:hover {
     filter:brightness(2);
 }
 
 
 
-.comments-section button:last-of-type:hover {
+.new-comment-section button:last-of-type:hover {
     color:#0095F6;
 }
 

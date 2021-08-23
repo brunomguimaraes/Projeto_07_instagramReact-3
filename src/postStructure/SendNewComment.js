@@ -1,6 +1,6 @@
 export default function SendNewComment() {
     return (
-        <div class="comments-section">
+        <div class="new-comment-section">
             <button>
                 <ion-icon name="happy-outline" />
             </button>

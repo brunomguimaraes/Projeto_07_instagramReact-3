@@ -1,8 +1,8 @@
 export default function UserProfile() {
-    ProfileAnchorReference = "#";
-    ProfileImageSrc = "Images/Perfis/Turista - Perfil.jpg";
-    ProfileTitle = "eu.so.quero.viajar";
-    ProfileName = "Zé Turista";
+    const ProfileAnchorReference = "#";
+    const ProfileImageSrc = "./Media/Images/Perfis/Turista - Perfil.jpg";
+    const ProfileTitle = "eu.so.quero.viajar";
+    const ProfileName = "Zé Turista";
     return (
         <div class="user-profile">
             <a href={ProfileAnchorReference}>

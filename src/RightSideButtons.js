@@ -1,18 +1,18 @@
 export default function RightSideButtons() {
+    const buttonsProperties = [
+        {name: "paper-plane-outline", reference: "#"},
+        {name: "compass-outline", reference: "#"},
+        {name: "heart-outline", reference: "#"},
+        {name: "person-outline", reference: "#"}
+    ]
+    const buttons = buttonsProperties.map(({name, reference}) => 
+    <a href={reference}>
+        <ion-icon name={name} />
+    </a>
+    )
     return (
         <div class="right-side-buttons">
-            <a href="#">
-                <ion-icon name="paper-plane-outline" />
-            </a>
-            <a href="#">
-                <ion-icon name="compass-outline" />
-            </a>
-            <a href="#">
-                <ion-icon name="heart-outline" />
-            </a>
-            <a href="#">
-                <ion-icon name="person-outline" />
-            </a>
+            {buttons}
         </div>
     );
 }
